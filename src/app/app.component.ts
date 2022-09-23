@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title: string = 'Ultimate Angular';
+  title: string;
+  isHappy: boolean = true;
+  numberOne: number = 1;
+  numberTwo: number = 2;
+  constructor() {
+    this.title = 'Ultimate Angular';
+  }
 }
