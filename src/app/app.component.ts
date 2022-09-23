@@ -6,14 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  name: string = 'Ayaan';
+  name: string = 'Ayan';
   handleClick() {
     this.name = 'Faruq';
   }
-  handleInput(event: any) {
-    this.name = event.target.value;
-  }
-  handleBlur(event: any) {
-    this.name = event.target.value;
+  handleChange(value: string) {
+    this.name = value;
   }
 }
