@@ -6,10 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title: string;
   name: string = 'Ayaan';
-  logo: string = 'img/logo.svg';
-  constructor() {
-    this.title = 'Ultimate Angular';
+  handleClick() {
+    this.name = 'Faruq';
+  }
+  handleInput(event: any) {
+    this.name = event.target.value;
+  }
+  handleBlur(event: any) {
+    this.name = event.target.value;
   }
 }
