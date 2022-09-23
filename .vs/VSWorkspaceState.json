@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\css",
+    "\\src\\img"
   ],
+  "SelectedNode": "\\src\\img\\logo.svg",
   "PreviewInSolutionExplorer": false
 }
